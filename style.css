@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root {
-    --hue: 200;
+    --hue: 15;
     --saturation: 50%;
     --foreground-color: hsl(var(--hue), var(--saturation), 75%);
     --backround-color: hsl(var(--hue), var(--saturation), 20%);
@@ -13,10 +13,10 @@ body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     background-color: var(--backround-color);
+    overflow: hidden;
 }
 .paddle {
     --position: 50;
-
     position: absolute;
     background-color: var(--foreground-color);
     width: 1%;
