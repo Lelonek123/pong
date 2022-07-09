@@ -50,7 +50,7 @@ body {
     font-size: 7vh;
     color: var(--foreground-color);
     opacity: .6;
-    margin: 1% 0;
+    margin: 0 0 1% 0;
 }
 .score > * {
     flex-grow: 1;
