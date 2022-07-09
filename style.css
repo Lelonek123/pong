@@ -50,7 +50,9 @@ body {
     font-size: 7vh;
     color: var(--foreground-color);
     opacity: .6;
-    margin: 0 0 1% 0;
+    position: absolute;
+    bottom: 1%;
+    width: 100%
 }
 .score > * {
     flex-grow: 1;
